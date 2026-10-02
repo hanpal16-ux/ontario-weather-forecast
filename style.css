@@ -1,0 +1,163 @@
+body {
+font-family: sans-serif;
+font-size: 40px;
+text-align: center;
+background-color: rgb(210, 214, 213);
+display: flex;
+flex-direction: column;
+min-height: 100vh;
+}
+
+.container{
+padding: 40px;
+flex: 1;
+}
+
+
+#City-name{
+width: 400px;
+height: 50px;
+padding: 50px;
+font-size: 50px;
+border-radius: 10px;
+}
+
+footer{
+margin-top: 300px;
+padding: 20px;
+background-color: rgb(223, 223, 214);
+color: rgb(20, 20, 20);
+font-size: 50px;
+
+}
+
+
+
+#toggle-unit{
+width: 300px;
+height: 50px;
+font-size: 30px;
+border-radius: 10px;
+cursor: pointer;
+background-color: rgb(147, 154, 154);
+color: white;
+border: none;
+margin-left: 10px;
+
+}
+
+#fetch-weather{
+width: 300px;
+height: 50px;
+font-size: 30px;
+border-radius: 10px;
+cursor: pointer;
+background-color: rgb(147, 154, 154);
+color: white;
+border: none;
+margin-left: 10px;
+}
+
+.item{
+
+margin-left: 80px;
+margin-right: 50px;
+background-color: #bebcbc;
+
+border-radius: 60px;
+margin-top: 10px;
+color: rgb(18, 17, 17);
+padding: 50px;
+font-size: 40px;
+
+}
+
+
+
+#Weather-information{
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: flex-start;
+gap: 40px;
+flex-wrap: wrap;
+margin-top: 30px solid black;
+
+}
+
+.weather-card{
+
+background-color: rgb(241, 239, 236);
+border-radius:20px;
+padding: 25px;
+width: 400px;
+height: 800px;
+box-shadow: 4px 4px 12px ;
+border-top: 30px  solid black;
+border-color: black;
+margin: 50px;
+text-align: center;
+font-size: 40px;
+
+}
+
+
+.error-msg, .placeholder-msg{
+font-size: 18px;
+color: gray;
+margin-top: 20px;
+}
+
+#dog section{
+margin-top: 20px;
+
+
+}
+.weather-card h3,.weather-card p{
+margin-bottom: 10px;
+color: rgb(42, 41, 44);
+text-align: left;
+font size: 15px;
+}
+
+#dog section {
+margin-top: 50px;
+}
+
+
+
+
+#puppyfhoto{
+width: 600px;
+border-radius: 20px;
+max-width:100% ;
+}
+
+#new-dog{
+
+width: 250px;
+height: 90px;
+font-size: 40px;
+margin-top: 20px;
+border-radius: 20px;
+background-color: bisque;
+border: none;
+cursor: pointer;
+color:solid black;
+}
+
+.owl-carousel{
+width: 100%;
+margin-top: 20px;
+}
+
+.item h3{
+margin-top: 10px;
+font-size: 16px;
+}
+
+.placeholder-msg{
+    font-size: 50px;
+    margin-top: 50px;
+    color: black;
+}
